@@ -27,6 +27,9 @@ export class HhData {
 
   @prop()
   seniorSalary: number;
+
+  @prop()
+  updatedAt: Date;
 }
 
 export interface TopPageModel extends Base {}
